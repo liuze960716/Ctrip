@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>携程旅游攻略</title>
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/strategy.css" />
+</head>
+<body>
+<!-- header	 -->
+	<header>
+		<div class="header_top">
+			<a href="#" class="zd"><img src="img/wenquan01.jpg" alt=""></a>
+			<div class="info">
+				<input type="text" placeholder="西安攻略 游记 精选酒店"><i></i>
+			</div>
+			
+			<a href="#" class="zb"><img src="img/pic20.gif" alt=""></a>
+		</div>
+	</header>
+<!-- Swiper -->
+	<div class="swiper">
+		<div class="swiper-container">
+		      <div class="swiper-wrapper">
+			      <div class="swiper-slide"><img src="img/220.jpg" alt=""></div>
+			      <div class="swiper-slide"><img src="img/zby01.jpg" alt=""></div>
+			      <div class="swiper-slide"><img src="img/220.jpg" alt=""></div>
+			      <div class="swiper-slide"><img src="img/221.jpg" alt=""></div>
+		      </div>
+		    <!-- Add Pagination -->
+		      <div class="swiper-pagination"></div>
+		  </div>
+
+	</div>
+<!-- section -->
+	<section>
+		<!--local_nav-->
+		<ul class="local_nav">
+			<li>
+				<a>
+					<span class="local_nav_icon icon_01"></span>
+					<span>景点</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span class="local_nav_icon icon_02"></span>
+					<span>酒店</span>
+				</a>
+			</li>
+
+			<li>
+				<a>
+					<span class="local_nav_icon icon_03"></span>
+					<span>美食林</span>
+				</a>
+			</li>
+			<li>
+				<a>
+					<span class="local_nav_icon icon_04"></span>
+					<span>行程路线</span>
+				</a>
+			</li>
+
+			<li>
+				<a>
+					<span class="local_nav_icon icon_05"></span>
+					<span>当地玩乐</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+
+</body>
+
+</html>
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+	  },
+	  loop: true,
+		autoplay: {
+			delay: 3000,
+			disableOnInteraction: false,
+		},
+
+    });
+</script>

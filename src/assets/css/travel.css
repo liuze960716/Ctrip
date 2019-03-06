@@ -1,0 +1,267 @@
+.header{
+	display: flex;
+	padding-top: .26rem;
+	background: #f0f0f0;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .sousou{
+	display: flex;
+	width: 2.07rem;
+	height: .32rem;
+	color: #cacaca;
+	font-size: 14px;
+	border-radius: .13rem;
+	text-align: center;
+	line-height: .32rem;
+	background: white;
+}
+.header .sousou img{
+	width: .17rem;
+	height: .17rem;
+	margin-top: .07rem;
+	margin-left: .12rem;
+	text-align: center;
+	line-height: .17rem;
+	padding-right: .09rem;
+}
+.header .header_img01{
+	width: .1rem;
+	height: .05rem;
+	/*margin-top: .08rem;*/
+}
+.header .header_img02{
+	width: .21rem;
+	height: .21rem;
+	/*padding-top: .05rem;*/
+}
+.header .header_img03{
+	width: .2rem;
+	height: .2rem;
+	/*padding-top: .05rem;*/
+	padding-right: .11rem;
+}
+.header .header_tit01{
+	padding-left: .12rem;
+	font-size: 14px;
+	/*padding-top: .09rem;*/
+}
+/*section*/
+
+
+.title{
+	display: flex;
+	padding-top: .3rem;
+	padding-bottom: .16rem;
+	padding-left: .13rem;
+}
+.title h3{
+	color: #232323;
+	font-size: .2rem;
+
+}
+.title h5{
+	color: #232323;
+	font-size: .1rem;
+	padding-top: .14rem;
+}
+.content{
+	display: -webkit-flex;
+    overflow-x: auto;
+}
+.content img{
+	width: 1.6rem;
+	height: 1.13rem;
+	padding-left: .12rem;
+}
+.content p{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-left: .13rem;
+	padding-top: .18rem;
+}
+.content p span {
+	color: #242424;
+}
+.content p img{
+	width: .14rem;
+	height: .14rem;
+
+}
+.titles{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: .3rem;
+	padding-bottom: .16rem;
+	padding-left: .13rem;
+}
+.titles a{
+	padding-right: .17rem;
+	color: #9c9c9c;
+	font-size: 12px;
+}
+.titles h3{
+	color: #232323;
+	font-size: .2rem;
+
+}
+
+
+
+
+.content_two{
+	padding-left: .13rem;
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+    overflow-x: auto;
+}
+
+.content_two a{
+	display: block;
+	margin-left: .15rem;
+}
+.content_two a img{
+	width: .55rem;
+	height: .55rem;
+	padding-left: .17rem;
+}
+.content_p{
+	padding-left: .13rem;
+}
+.content_two .content_p .content_p_01{
+	color: #242424;
+	font-size: 14px;
+	padding-top: .06rem;
+	text-align: center;
+}
+.content_two .content_p .content_p_02{
+	color: #969696;
+	font-size:10px;
+	text-align: center;
+	padding-top: .06rem;
+	display: block;
+}
+.content_two .content_p .content_p_03{
+	color: #f2ffff;
+	font-size:12px;	
+	width: .6rem;
+	height: .25rem;
+	line-height: .25rem;
+	text-align: center;
+	background: #30cfbb;
+	border-radius: 1rem;
+	display: block;
+	margin-top: .06rem;
+}
+/*nav*/
+.nav{
+    display: -webkit-flex;
+    padding-left: 0.36rem;
+    padding-bottom: .24rem;
+    overflow-x: auto;
+    -webkit-align-items:center;
+    padding-top: .5rem;
+}
+.nav a{
+    font-size: 14px;
+    color: #666666;
+    -webkit-flex-shrink:0;
+    padding-right: .36rem;
+}
+/*main_section*/
+.main_section{
+	flex: 1;
+	overflow-y: auto;
+}
+/*main*/
+.main {
+  column-count: 2;
+  column-gap: .05rem;
+  background: #f5f5f5; 
+}
+.main img {
+	break-inside: avoid;
+	box-sizing: border-box;
+	padding: 6px;
+	width: 1.73rem;
+	display: block; 
+}
+.main img:first-child {
+	height: 3.77rem; 
+}
+.main img:nth-child(2) {
+	height: 3.55rem; 
+}
+.main img:nth-child(3) {
+	height: 3.77rem;
+}
+.main img:nth-child(4) {
+	height: 3.55rem; 
+}
+
+.add {
+  width: 100%; 
+}
+.add img {
+	width: .61rem;
+	height: .61rem;
+	border-radius: 50%;
+	position: fixed;
+	bottom: .78rem;
+	left: 50%;
+	margin-left: -.305rem; 
+}
+
+.hide {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	background: url(../img/bg4.jpg) repeat-x; 
+}
+.hide .hideDiv {
+	opacity: 0;
+	display: flex;
+	position: fixed;
+	bottom: 1.23rem;
+	left: 0;
+	margin-left: .49rem; 
+}
+.hide .hideDiv div {
+	display: flex;
+	flex-direction: column;
+	margin-right: .49rem; 
+}
+.hide .hideDiv div img {
+	width: .6rem;
+	height: .6rem;
+	display: block;
+	margin-bottom: .13rem; 
+}
+.hide .hideDiv div p {
+	font-size: .13rem;
+	color: #666;
+	align-self: center; 
+}
+.hide .x {
+	display: flex;
+	justify-content: center; 
+}
+.hide .x img {
+	width: .22rem;
+	height: .2rem;
+	position: fixed;
+	bottom: .45rem; 
+}
+
+footer{
+	box-shadow:0 2px 1px #d7d7d7 inset;
+	position: absolute;
+	bottom: 0;
+}

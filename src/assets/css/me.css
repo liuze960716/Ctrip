@@ -1,0 +1,169 @@
+header{
+
+	height: 1.56rem;
+	/*background: -webkit-linear-gradient(rgb(71, 85, 209), rgba(63, 127, 224, 0.2)); */
+	background: url(../img/bg.jpg);
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: .32rem
+}
+.header img{
+	width: .2rem;
+	height: .2rem;
+}
+.header span{
+	display: flex;
+	margin-right: .15rem;
+}
+.header_01{
+	margin-left: .15rem;
+}
+.header_02{
+	margin-right: .17rem;
+	margin-left: .17rem;
+}
+header h3{
+	color: #ffffff;
+	font-size: .16rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: normal;
+	margin-top: .15rem;
+}
+.header_tit{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: .19rem;
+}
+.header_tit a:nth-child(1){
+	width: 1.5rem;
+	height: .36rem;
+	background: #ff9a14;
+	color:#ffffff;
+	font-size: .14rem;
+	text-align: center;
+	line-height: .36rem;
+	border-radius: .16rem;
+}
+.header_tit a:nth-child(2){
+	width: 1.5rem;
+	height: .36rem;
+	background: rgba(81, 147, 230, 0.2);
+	color:#f2f7fd;
+	font-size: .14rem;
+	text-align: center;
+	line-height: .36rem;
+	border-radius: .16rem;
+}
+/*section*/
+section{
+	background: #f2f2f2;
+}
+.home_list{
+	color: #333;
+	margin-bottom: 10px;
+	background: #fff;
+	border-radius:0; 
+}
+
+.btnGoWallet{
+	padding-top:11px; 
+	position: relative;
+	height: auto;
+    line-height: .25rem;
+    padding: 10px 10px 10px 30px;
+    margin-left: 16px;
+}
+.icon_wallet{
+	position: absolute;
+	left: 0;
+	top: 15px;
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+	background: url(../img/619.png) 0 0 no-repeat;
+	background-size: 44px auto;
+	background-position: 0 -40px;
+}
+.btnGoWallet em{
+    display: block;
+    font-size: 13px;
+    color: #999;
+}
+.btnGoWallet em .separator{
+	color: #e5e5e5;
+    margin: 0 10px;
+}
+
+.home_list_02{
+	display: flex;
+	justify-content: space-around;
+    border-top: 1px solid #efefef;
+}
+.btnPromocode{
+    height: .57rem;
+    font-size: 15px;
+    border-right: 1px solid #efefef;
+    line-height: .57rem;
+}
+.icon_coupon{
+	background: url(../img/619.png) 0 0 no-repeat;
+    background-size: 44px auto;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-position: 0 -60px;
+    margin-right: .1rem;
+}
+.btnPromocode em{
+    font-size: 13px;
+    color: #999;
+    padding-left: .48rem;
+    padding-right: .15rem;
+}
+.icon_point{
+	background: url(../img/619.png) 0 0 no-repeat;
+    background-size: 44px auto;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background-position: 0 -110px;
+    padding-right: .1rem;
+}
+.btnPoint{
+	font-size: 15px;
+	line-height: .57rem;
+}
+.btnPoint em{
+	font-size: 13px;
+    color: #999;
+    padding-left: .48rem;
+    padding-right: .15rem;
+}
+
+.host_list_03 li{
+	height: .47rem;
+	line-height: .47rem;
+	margin-left: .16rem;
+	border-bottom: 1px solid #efefef;
+}
+.host_list_03 li em{
+	float: right;
+	font-size: 13px;
+	color: #999; 
+	margin-right: .34rem;
+}
+.host_list_04{
+	margin-bottom: .7rem;
+}
+/*footer*/
+footer{
+	box-shadow:0 2px 1px #d7d7d7 inset;
+}

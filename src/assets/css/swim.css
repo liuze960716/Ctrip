@@ -1,0 +1,428 @@
+body{
+	background: #f5f5f5;
+}
+/*header*/
+header {
+    width: 100%;
+    /*height: 1.5rem;*/
+    position: fixed;
+    z-index: 9999;
+    
+}
+.rim_search_box {
+	width: 100%;
+	/*background: #fff;*/
+    box-sizing: border-box;
+    text-align: center;
+    display: table;
+}
+.rim_back {
+    width: .44rem;
+	line-height: .44rem;
+    display: table-cell;
+    cursor: pointer;
+    text-align: center;
+}
+.rim_back i{
+	display: inline-block;
+    width: .12rem;
+    height: .12rem;
+    vertical-align: middle;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-sizing: border-box;
+}
+.rim_head_title {
+    font-weight: 400;
+    line-height: .46rem;
+    font-size: .17rem;
+    color: #333;
+    margin-right: .45rem;
+}
+.rim_search_box2 {
+    height: 50px;
+    box-sizing: border-box;
+    padding: 8px 15px 10px;
+}
+.search_rim_heard .search_rim_col {
+    display: table;
+    width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 0;
+    height: 32px;
+    color: #009fde;
+}
+.search_rim_heard .search_rim_starting {
+    display: table-cell;
+    width: .9rem;
+    color: #448aff;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    background: #eaeaea;
+    border-radius: .5rem 0 0 .5rem;
+}
+.search_rim_heard .search_rim_mod {
+    display: table-cell;
+    color: #999;
+    background: #eaeaea;
+    padding-left: .30rem;
+    position: relative;
+    white-space: nowrap;
+    border-radius: 0 .5rem .5rem 0;
+    line-height: .32rem;
+    text-align: left;
+}
+.search_rim_heard .search_rim_grey {
+    color: #cecece;
+}
+.search_rim_mod i{
+	width: 13px;
+    height: 13px;
+	background: url(../img/spe_sou.png) no-repeat;
+    background-size: 13px auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* swiper */
+/*.swiper{
+	position: fixed;
+}*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-container .swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+/*rim_portals_item*/
+.rim_portals_item {
+    padding: 10px 0 .19rem;
+    margin-bottom: 10px;
+    background: #fff;
+    position: relative;
+}
+.react_swipeable_view_container{
+	flex-direction: row;
+    transition: transform 0.35s cubic-bezier(0.15, 0.3, 0.25, 1) 0s;
+    direction: ltr;
+    display: flex;
+    will-change: transform;
+    transform: translate(0%, 0px);
+}
+.rim_entry_list {
+    zoom: 1;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+}
+.rim_entry_list a {
+    float: left;
+    width: 25%;
+    position: relative;
+    color: #000;
+    z-index: 2;
+    font-size: 12px;
+}
+.rim_entry_list a p {
+    margin-right: 6px;
+    height: .76rem;
+    text-align: center;
+}
+.index_rim_box {
+    width: .48rem;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 7px;
+    position: relative;
+    text-align: center;
+}
+.index_rim_box img {
+    width: .3rem;
+    height: .3rem;
+    margin:0 auto;
+    margin-top: 9px;
+}
+.rim_ov_span {
+    display: block;
+    width: 100%;
+    height: .18rem;
+    line-height:.18rem;
+    color: #333;
+}
+.rim_focus_box {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    line-height: 7px;
+    text-align: center;
+}
+
+.rim_focus_box i {
+    background: #e5e5e5;
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 3px;
+}
+.rim_focus_box i.cur {
+    background: #ccc;
+}
+
+
+
+/*specialty_today_box*/
+.specialty_today_box{
+	background: #fff;
+	margin-bottom: .1rem;
+	padding-bottom: .15rem;
+}
+.specialty_today_title{
+	font-size: .21rem;
+    color: #ff4646;
+    padding: 10px 0 10px .15rem;
+}
+.specialty_today_title span {
+    border: 1px solid rgba(255,70,70,.3);
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 0 2px;
+    margin-left: 5px;
+}
+.specialty_today_item {
+    
+    display: flex;
+}
+.specialty_today_content {
+    padding-left: .1rem;
+    padding-bottom: .15rem;
+    display: flex;
+    overflow-y: auto;
+}
+.specialty_today {
+    width: 1.45rem;
+    margin: 0 5px;
+   
+}
+.specialty_today_img, 
+.specialty_today_img img {
+    border-radius: 3px;
+    height: .95rem;
+    width: 1.45rem;
+}
+.specialty_today_tip {
+    font-size: 10px;
+    color: #fff;
+    background: #ff6913;
+    border-radius: 3px 0 10px;
+    line-height: .15rem;
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.specialty_today_img{
+     position: relative; 
+}
+.specialty_today_text {
+    background: rgba(0,0,0,.3);
+    font-size: 12px;
+    color: #fff;
+    line-height: .19rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 3px 3px;
+}
+.specialty_today_headline {
+    font-weight: 400;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 17px;
+    max-height: .34rem;
+    color: #222;
+}
+.specialty_today_price {
+    font-size: 12px;
+    color: #999;
+}
+.specialty_today_price span {
+    font-size: 12px;
+    color: #ff6913;
+}
+.specialty_today_price strong {
+    font-size: .18rem;
+    color: #ff6913;
+}
+.specialty_today_discount {
+    font-size: 11px;
+    color: #fff;
+    background: #ff6913;
+    border-radius: 2px;
+    line-height: .16rem;
+    padding: 0 3px;
+    margin-left: 3px;
+}
+
+/*rim_hot_place*/
+.rim_hot_place {
+    background: #fff;
+    padding: 15px 11px 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.rim_hot_title {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 8px;
+    padding-left: 7px;
+}
+.rim_hot_city {
+    width: 33.3%;
+    margin-bottom: 10px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    float: right;
+}
+.rim_hot_space {
+    margin: 0 4px;
+}
+.rim_hot_text01 {
+    position: relative;
+}
+.rim_hot_text01 img {
+    width: 100%;
+    border-radius: 3px;
+}
+.rim_hot_bg02 {
+    background-image: linear-gradient(-180deg,rgba(0,0,0,0) 36%,rgba(0,0,0,.7) 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 3px;
+}
+.rim_hot_name {
+    font-size: 15px;
+    color: #fff;
+    bottom: 4px;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+	position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.rim_hot_text02 {
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+    line-height: 24px;
+    height: 24px;
+}
+/*rq_hot_place*/
+.rq_hot_place{
+	background: #fff;
+    padding: 15px 11px 10px;
+    margin-bottom: 10px;
+}
+.rq_hot_title {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 8px;
+    padding-left: 7px;
+}
+.rq_hot_city{
+	display: flex;
+	overflow-x: auto;
+	flex-direction: row;
+}
+.rq_hot_city a{
+	margin-left: .1rem;
+}
+.rq_hot_space img{
+	width: .98rem;
+	height: .98rem;
+	border-radius:3px;
+	display: block;
+}
+/*rim_advbox*/
+.rim_advbox{
+	margin-bottom: .1rem;
+}
+.rim_advbox_img{
+	width: 3.75rem;
+	height: .75rem;
+}
+.rim_advbox_img img{
+	width: 100%;
+	height: 100%;
+}
+/*preference_box*/
+.preference_box{
+    background: #fff;
+    padding: .15rem;
+    margin-bottom: 10px;
+}
+.preference_box_tit{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: .15rem;
+}
+.preference_box_text{
+	font-size:.19rem;
+    color: #222;
+    height: .22rem;
+    
+}
+.preference_box_tit span{
+	color: #b3b3b3;
+	font-size: .11rem;
+	margin-right: .08rem;
+}
+.preference_box ul li{
+	width: 3.34rem;
+	height: 1.16rem;
+	margin-bottom: .1rem;
+}
+
+.preference_box ul li img{
+	width: 100%;
+	height: 100%;
+	border-radius:5px; 
+
+}

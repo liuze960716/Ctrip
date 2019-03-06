@@ -1,0 +1,60 @@
+{
+  "swiperList":[
+    {
+      "id":"01",
+      "img":"static/img/220.jpg"
+    },
+    {
+      "id":"02",
+      "img":"static/img/221.jpg"
+    }
+  ],
+  "swiperLists":[
+    {
+      "id":"01",
+      "img":"static/img/zby01.jpg"
+    },
+    {
+      "id":"02",
+      "img":"static/img/zby01.jpg"
+    }
+  ],
+  "nav":[
+    "攻略 景点","门票 玩乐","周边游","美食林","温泉"
+  ],
+  "lists":[
+    {
+      "title":"霸王公",
+      "img":"static/img/wenquan08.jpg"
+    },
+    {
+      "title":"帝王公",
+      "img":"static/img/wenquan08.jpg"
+    },
+    {
+      "title":"帝王公",
+      "img":"static/img/wenquan08.jpg"
+    },
+    {
+      "title":"帝王公",
+      "img":"static/img/wenquan08.jpg"
+    },
+    {
+      "title":"帝王公",
+      "img":"static/img/wenquan08.jpg"
+    },
+    {
+      "title":"帝王公",
+      "img":"static/img/wenquan08.jpg"
+    },
+    {
+      "title":"帝王公",
+      "img":"static/img/wenquan08.jpg"
+    },{
+      "title":"帝王公",
+      "img":"static/img/wenquan08.jpg"
+    }
+
+  ]
+
+}
